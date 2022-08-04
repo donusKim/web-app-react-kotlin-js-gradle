@@ -1,6 +1,6 @@
 plugins {
-    kotlin("js") version "1.7.10"
-    kotlin("plugin.serialization") version "1.7.10"
+    kotlin("js") version "1.6.10"
+    kotlin("plugin.serialization") version "1.6.10"
 }
 
 group = "org.example"
@@ -29,7 +29,7 @@ dependencies {
 
     //Kotlin React Emotion (CSS) (chapter 3)
     implementation("org.jetbrains.kotlin-wrappers:kotlin-emotion")
-
+    // implementation("org.jetbrains.kotlin-wrappers:kotlin-react-css:17.0.2-pre.298-kotlin-1.6.10")
     //Video Player (chapter 7)
     implementation(npm("react-player", "2.10.1"))
 
